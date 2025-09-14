@@ -1,6 +1,9 @@
-/*margin:0;
-  padding:0;
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 
 body {
@@ -56,7 +59,7 @@ body {
 
 /*hero section*/
 .hero {
-  margin-top: 140px;
+  padding :120px 20px 60px;
   color: white;
   text-align: center;
 }
@@ -68,7 +71,7 @@ body {
 
 @media (max-width: 768px) {
   .hero {
-    margin-top: 80px;
+    padding: 60px 20px 40px;
   }
 
   .hero h1 {

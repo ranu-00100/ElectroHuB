@@ -105,23 +105,24 @@ body {
   
   .product-card {
     background-color: black;
-    border-radius: 30px;
+    border-radius: 20px;
     border: 1px solid black;
     width: 16rem;
     margin: auto;
+    overflow:hidden;
   }
 
   .product-card img {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     height: 240px;
     object-fit: cover;
   }
 
   .product-card .card-body {
     background-color: rgb(9, 9, 10);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
     color: white;
   }
 
@@ -181,6 +182,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
   }
 
   .review-card {
@@ -189,10 +191,13 @@ body {
    max-width: 300px;
    text-align: center;
    transition: transform 0.3s ease;
+   border-radius:15px;
+   overflow:hidden;
   }
 
   .review-card:hover {
   transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.6);
 }
 
   /*footer section*/

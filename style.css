@@ -14,8 +14,7 @@ body {
   background-position:center;
   min-height:100vh;
   color: #ffffff;
-  overflow:hidden;
-
+ 
 }
 
 
@@ -278,8 +277,8 @@ body {
   }
 }
 
+/* Remove side white space */
 html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  overflow-x: hidden;  
 }
